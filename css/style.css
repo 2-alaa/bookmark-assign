@@ -1,0 +1,71 @@
+.bg-bodys{
+
+    background-color:#F7ECDE ;
+}
+
+.book-mark h1{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+
+}
+
+.book-mark h1::before{
+    content: "";
+    width: 280px;
+    height: 17px;
+    background-color: #FEC260;
+    position: absolute;
+        bottom: 57px;
+        z-index: -1;
+        transition: height 0.5s;
+    }
+    
+    
+    .book-mark h1:hover::before{
+    height: 37px;
+    }
+.dot{
+  
+    height: 1px;
+    border-top: dotted 2px black;
+    
+}
+
+
+.color-book h2{
+
+    font-family: "Righteous", cursive;
+    font-size: 27px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bg{
+    background-color: #F8F9FA;
+}
+
+
+
+
+
+
+
+
+
+
+
+.redl{
+
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    
+    }
+    .w-30{
+        width: 30%;
+    }
